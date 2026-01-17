@@ -118,9 +118,10 @@ footer{
 .menu-column {
     display: flex;
     flex-direction: column;
+    font-size: 18px;
 }
 
-.menu-column h4 {
+.menu-column-h4 {
     color: #919496;
     font-size: 12px;
     font-weight: 700;
@@ -129,7 +130,7 @@ footer{
     margin-top: 0;
 }
 
-.menu-column a {
+.menu-column-a {
     color: #fff;
     text-decoration: none;
     margin-bottom: 16px;
@@ -137,7 +138,7 @@ footer{
     font-weight: 500;
 }
 
-.menu-column a:hover {
+.menu-column-a-hover {
     text-decoration: underline;
 }
 
@@ -147,18 +148,25 @@ footer{
 }
 
 .social-icon {
-    width: 40px;
-    height: 40px;
+    width: 54px;
+    height: 54px;
     border-radius: 50%;
-    background-color: #292929;
+    background-color: #222322;
     display: flex;
-    align-items: center;
+    margin-right: 15px;
+    display: flex;
     justify-content: center;
-    color: #fff;
-    transition: background-color 0.2s;
+    align-items: center;
 }
 
-.social-icon:hover {
+.social-icon img {
+    width: 21px;
+    height: 24px;
+    color: #fff;
+}
+
+
+.social-icon-hover {
     background-color: #3d3d3d;
     color: #fff;
 }
@@ -169,6 +177,7 @@ footer{
     align-items: center;
     padding-top: 40px;
     border-top: 1px solid #292929;
+    display: flex;
 }
 
 .footer-links {
@@ -184,8 +193,9 @@ footer{
     font-weight: 500;
 }
 
-.footer-link:hover {
+.footer-link-hover {
     color: #1ed760;
+    cursor: pointer;
 }
 
 .footer-right {
@@ -203,8 +213,9 @@ footer{
     text-decoration: none;
 }
 
-.country-selector:hover {
+.country-selector-hover {
     color: #fff;
+    cursor: pointer;
 }
 
 .footer-copyright {
