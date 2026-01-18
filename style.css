@@ -159,17 +159,22 @@ footer{
     align-items: center;
 }
 
-.social-icon img {
-    width: 21px;
+.social-icon svg {
+    width: 24px;
     height: 24px;
-    color: #fff;
+    fill: #fff;
+    transition: fill 0.2s ease;
 }
 
-
-.social-icon-hover {
+.social-icon:hover {
     background-color: #3d3d3d;
-    color: #fff;
+    cursor: pointer;
 }
+
+.social-icon:hover svg {
+    fill: #1ed760;
+}
+
 
 .footer-bottom {
     display: flex;
